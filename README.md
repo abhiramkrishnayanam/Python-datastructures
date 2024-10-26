@@ -8,6 +8,9 @@ Syntax: Defined with square brackets [].
 Mutable: Items can be added, removed, or changed.<br>
 Indexed: Supports indexing and slicing, making it easy to access elements.<br>
 Allows Duplicates: Can contain multiple items with the same value.<br>
+**Example:** <br>my_list = [1, 2, 3, 4, 5]
+
+
 
 ## 2. Tuples
 Definition: Ordered, immutable collections of items.<br>
@@ -16,6 +19,8 @@ Syntax: Defined with parentheses ().
 Immutable: Cannot be modified after creation (no adding, removing, or changing elements).<br>
 Indexed: Supports indexing and slicing.<br>
 Allows Duplicates: Can contain duplicate values.<br>
+**Example:** <br>my_tuple = (1, 2, 3, 4, 5)
+
 
 ## 3. Sets
 Definition: Unordered, mutable collections of unique items.<br>
@@ -24,6 +29,8 @@ Syntax: Defined with curly braces {} or using the set() function.<br>
 Mutable: Items can be added or removed, but only unique values are stored.<br>
 Unordered: No indexing or slicing (does not maintain order).<br>
 No Duplicates: Automatically removes duplicate items.<br>
+**Example:** <br>
+my_set = {1, 2, 3, 4, 5}
 
 ## 4. Dictionaries
 Definition: Unordered, mutable collections of key-value pairs.<br>
@@ -32,6 +39,8 @@ Syntax: Defined with curly braces {}, where each item has a key: value pair.<br>
 Mutable: Pairs can be added, removed, or updated.<br>
 Key-Value Mapping: Allows efficient lookups and modifications by key.<br>
 Keys are Unique: No duplicate keys, but values can be duplicated.<br>
+**Example:** <br>
+my_dict = {"Name": "Alice", "Age": 25, "City": "New York"}
 
 ### Each of these data structures provides specific functionality:
 
